@@ -5,4 +5,8 @@ public static void main(String[] args) {
         // Print employee information using toString()
         System.out.println(E1);
         System.out.println(E2);
+
+        System.out.println("=============================================================");
+        FindLowSalary(E1,E2); // Call method to find and display which employee has the lower salary
+
 }
