@@ -1,6 +1,4 @@
 
-package test;
-
 public class Employee {
     private int id; // Employee ID
     private String fullName; // Full name of the employee
