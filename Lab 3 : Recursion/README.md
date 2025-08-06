@@ -1,4 +1,4 @@
-# Lab 1 – Recursion
+# Lab 3 – Recursion
 
 ## Excercise 1 - Recursive Prime Numbers
   A recursive program that checks if a number is **prime**.
