@@ -23,7 +23,7 @@ public class TestMyUtils {
         System.out.println("==================================");
         System.out.println("Insert student's last name: ");
         String lsName = UserInput.getString();
-        int pos = MyUtils.SearchLsName(S,lsName);
+        int pos = MyUtils.SearchLastName(S,lsName);
         if(pos > -1)
              System.out.println("==============="+lsName+" was found at position "+pos+"\n================"+"\nStudent's details is:\n "+S[pos]);
         else 
