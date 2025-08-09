@@ -1,5 +1,5 @@
 public class MyUtils {
-        public static int SearchLsName(Student[] S,String F){
+        public static int SearchLastName(Student[] S,String F){
         for(int i=0;i<S.length;i++){ 
             if(S[i].getLsName().equals(F))  
                 return i; //
