@@ -38,15 +38,14 @@ public class TestMyUtils {
             }
         }
         System.out.println("==================================");
-        System.out.println("Dwse to am pou psaxneis: ");  // Prompt for student ID to search
+        System.out.println("Enter the student ID you are searching for: ");  // Prompt for student ID to search
         short id = UserInput.getShort();
         int pos = MyUtils.recursiveSearchByID(S, id, 0, S.length - 1); // Perform recursive binary search
         // Display search result
         if(pos > -1)
-            System.out.println(id+" brethike anadromika sti thesi "+pos+" me stoixeia: \n"+S[pos]);
+            System.out.println(id+" was found recursively at position "+pos+" with details: \n"+S[pos]);
         else 
-            System.out.println("O "+id+" den brethike!");
-
+            System.out.println("Student with ID  "+id+" was not found!");
     }
     
 }
