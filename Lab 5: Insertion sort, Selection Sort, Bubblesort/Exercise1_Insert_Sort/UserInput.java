@@ -1,8 +1,7 @@
 
 import java.io.*;
-class UserInput { //Class gia eisagogi dedomenwn apo to pliktrologio
- public static String getString() { //Methodos gia eisagogi String
-String line;
+class UserInput { 
+ public static String getString() { String line;
 InputStreamReader isr = new InputStreamReader(System.in);
 BufferedReader br = new BufferedReader(isr);
 try {
@@ -13,7 +12,7 @@ catch(Exception e) {
 return "Exception - Lathos";
 }
  }
- public static int getInteger() { //Methodos gia eisagogi Integer
+ public static int getInteger() { 
 String line;
 InputStreamReader isr = new InputStreamReader(System.in);
 BufferedReader br = new BufferedReader(isr);
@@ -26,7 +25,7 @@ return i;
  return -1;
  }
  }
- public static short getShort() { //Methodos gia eisagogi short
+ public static short getShort() { 
 String line;
 InputStreamReader isr = new InputStreamReader(System.in);
 BufferedReader br = new BufferedReader(isr);
@@ -39,7 +38,7 @@ return i;
  return (short)-1;
  }
  }
- public static long getLong() { //Methodos gia eisagogi long
+ public static long getLong() { 
 String line;
 InputStreamReader isr = new InputStreamReader(System.in);
 BufferedReader br = new BufferedReader(isr);
@@ -52,7 +51,7 @@ return i;
  return -1L;
  }
  }
- public static float getFloat() { //Methodos gia eisagogi Float
+ public static float getFloat() { 
 String line;
 InputStreamReader isr = new InputStreamReader(System.in);
 BufferedReader br = new BufferedReader(isr);
@@ -65,7 +64,7 @@ return f;
  return -1f;
  }
  }
- public static double getDouble() { //Methodos gia eisagogi Double
+ public static double getDouble() { 
 String line;
 InputStreamReader isr = new InputStreamReader(System.in);
 BufferedReader br = new BufferedReader(isr);
