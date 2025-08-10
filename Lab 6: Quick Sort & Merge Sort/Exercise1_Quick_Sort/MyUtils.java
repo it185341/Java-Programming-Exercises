@@ -31,7 +31,7 @@ public class MyUtils {
         // If the middle student's ID is less than the key, search in the right half
         if(S[mid].getId() < key)
             return recursiveSearchByID(S,key,mid+1,right);
-        // If the middle student's AM is greater than the key, search in the left half
+        // If the middle student's ID is greater than the key, search in the left half
         else if(S[mid].getId() > key)
             return recursiveSearchByID(S,key,left,mid -1);
          // If the ID matches the key, return the index
