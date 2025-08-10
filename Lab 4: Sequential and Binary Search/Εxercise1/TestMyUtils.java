@@ -2,18 +2,18 @@ public class TestMyUtils {
         public static void main(String[] args) {
         int n = 1;
         Student [] S = new Student[n];
-        for(int i=0;i<S.length;i++){
+        System.out.println("Insert details for students\n");
+        for(int i = 0; i<n;i++){
             Student s = new Student();
-            System.out.println("\nInsert details for student " + (i+1));
-            System.out.print("Insert student's first name: ");
+            System.out.println("Insert student's Id: ");
+            s.setId(UserInput.getShort());
+            System.out.println("Insert student's first name: ");
             s.setName(UserInput.getString());
-            System.out.print("Insert student's last name: ");
+            System.out.println("Insert student's last name: ");
             s.setLsName(UserInput.getString());
-            System.out.print("\nInsert student's Id: ");
-            s.setId(UserInput.getString());
-            System.out.print("\nInsert student's admission year:  ");
+            System.out.println("Insert student's admission year: ");
             s.setYear(UserInput.getShort());
-            S[i] =s;
+            S[i] = s;
         }
         System.out.println("==================================");
         System.out.println("Student details: ");
@@ -25,7 +25,7 @@ public class TestMyUtils {
         String lsName = UserInput.getString();
         int pos = MyUtils.SearchLastName(S,lsName);
         if(pos > -1)
-             System.out.println("==============="+lsName+" was found at position "+pos+"\n================"+"\nStudent's details is:\n "+S[pos]);
+             System.out.println("==============="+lsName+" was found at position "+pos+"\n================"+"\nStudent's details :\n "+S[pos]);
         else 
             System.out.println(lsName+" not found!");
 
