@@ -33,15 +33,25 @@ public class TestSortUtils {
             System.out.println("---------------- Student "+i+" ------------------");
             System.out.println(S[i]); // Print the Student object's details 
         }
-        // Call the method to sort the array of Students by year of enrollment
+         // Call the method to sort the array of Students by year of enrollment
         MyUtils.bubbleSortEE(S);
         // Print a message indicating that the students are sorted by year of enrollment
-        System.out.println("Taksinomimena stoixeia Foititwn me etos eisagwgis: ");
+        System.out.println("========================================");
+        System.out.println("Sorted list of students by year of admission: ");
+        System.out.println("========================================");
         // Loop through the sorted array and print each student's details
         for(int i =0;i<S.length;i++){
             System.out.println("---------------- Student "+i+" ------------------");
             System.out.println(S[i]); // Print the Student object's details 
         }
+        System.out.println("========================================");
+        System.out.println("Student data sorted by Student ID: ");
+        System.out.println("========================================");
+        MyUtils.quickSort(S); //Sort the entire array S using QuickSort algorithm by student ID
+        // Loop through the array and print each student's details
+        for(int i=0;i<S.length;i++){
+            System.out.println("---------------- Student "+i+"---------------");
+            System.out.println(S[i]); // Print student details
+        }
     }
-    
 }
