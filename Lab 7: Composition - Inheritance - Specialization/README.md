@@ -1,8 +1,8 @@
 # Lab 7 - Composition,Inheritance,Specialization
 This project demonstrates **Object-Oriented Programming** concepts in Java, focusing on:
 
-- **Composition** (Part 1 – Vehicle System)
-- **Inheritance & Specialization** (Part 2 – Employee Management System)
+- **Composition** (Exercise 1 – Vehicle System)
+- **Inheritance & Specialization** (Exercise 2 – Employee Management System)
 
 
 ## Excersice 1: Composition - Vehicle System
