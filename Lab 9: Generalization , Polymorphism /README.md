@@ -1,11 +1,11 @@
 # Lab 9:  Generalization, Polymorphism Part2
 ## Assignment Description
-Write in Java a class named Tilefono (Phone) that provides the basic functions of a telephone:
+Write in Java a class named Phone that provides the basic functions of a telephone:
 
 - dial – initiate a call to a given number.
 - cost – calculate the cost of telephone calls.
 
-The above class is inherited by the classes Stathero (Landline) and Kinito (Mobile), which describe the functions of a landline and a mobile phone respectively.
+The above class is inherited by the classes Landline and Mobile, which describe the functions of a landline and a mobile phone respectively.
 
 In each class, define the attributes/variables you consider necessary.
 For each class, in addition to the default constructor, also define a constructor that initializes all the variables of the respective class, as well as the corresponding get and set methods.
@@ -65,9 +65,6 @@ Using appropriate methods, display:
 Store phone numbers as String.
 Store the total seconds of calls made to landlines and to mobiles as integers.
 All phones have a number, so this attribute should belong to the Tilefono class.
-
-The Tilefono class is not instantiated directly, so it should be declared abstract.
-
+The Phone class is not instantiated directly, so it should be declared abstract.
 The methods dial and cost should be declared abstract if they are implemented differently in each subclass.
-
-The call cost values can be stored in an array in the Tilefono class.
+The call cost values can be stored in an array in the Phone class.
