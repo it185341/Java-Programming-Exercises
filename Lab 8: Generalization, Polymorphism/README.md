@@ -3,9 +3,9 @@
 ## Assignment Description
 Implement the classes Car, Truck, and Motorcycle, which describe a car, a truck, and a motorcycle respectively.
 These classes inherit from (and extend) the Vehicle class you implemented in the previous lab, adding the following extra properties:
-Car: Number of doors
-Truck: Number of axles
-Motorcycle: Indicator of whether it has a side basket (sidecar)
+- Car: Number of doors
+- Truck: Number of axles
+- Motorcycle: Indicator of whether it has a side basket (sidecar)
 
 Each object (regardless of vehicle type) should have the following methods:
 transferOwnership
